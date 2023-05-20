@@ -27,6 +27,21 @@
 .App-link {
   color: #61dafb;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +50,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-self: center;
+}
+
+.btncenter{
+  display: flex;
+  justify-content: center;
 }
